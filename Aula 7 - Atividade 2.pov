@@ -1,8 +1,7 @@
 /*
 
 Aula 7
-Exercício 2 - sor.pov
-Maíra Satiko Tabata - 1561545
+ExercÃ­cio 2 - sor.pov
 
 */
 
@@ -19,7 +18,7 @@ camera {
 //Luz 
 light_source { <500,500,-1000> color White}
 
-//Chão
+//ChÃ£o
 plane {
         y, -1   
         texture { Jade } 
