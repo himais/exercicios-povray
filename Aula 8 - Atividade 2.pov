@@ -1,4 +1,4 @@
-//Aula 8 - Atividade 1 - MaÌra Tabata 1561545.pov
+//Aula 8 - Atividade 1
 //Arquivo Objetos.pov
   
   
@@ -17,11 +17,11 @@
 Antigo: 
 
 global_settings {
-  assumed_gamma 1       // fator de correÁ„o do brilho
+  assumed_gamma 1       // fator de corre√ß√£o do brilho
   radiosity {           
     pretrace_start 0.08 
-    pretrace_end   0.02 // tamanho dos blocos de mosaico da visualiÁ„o (preview)
-                        // porcentagem em relaÁ„o ao tamanho da imagem
+    pretrace_end   0.02 // tamanho dos blocos de mosaico da visuali√ß√£o (preview)
+                        // porcentagem em rela√ß√£o ao tamanho da imagem
                         
     count 50            // qtd de raios emitidos por pixel
                         // quanto maior melhor a qualidade da imagem (35 a 1600)
@@ -29,7 +29,7 @@ global_settings {
     error_bound 0.5     // tolerancia de erro (float a partir de 0)
                         // quanto menor, melhor a qualidade da imagem
     
-    recursion_limit 1   // determina quantidade m·xima de recursao
+    recursion_limit 1   // determina quantidade m√°xima de recursao
                         // para o calculo da radiosidade (de 1 a 20)
                        
   } 
@@ -40,7 +40,7 @@ global_settings {
 
         #switch (Rad_Quality)
          #case (1)
-          radiosity {             // --- Padr„o: Settings 1 (fast) ---
+          radiosity {             // --- Padr√£o: Settings 1 (fast) ---
             pretrace_start 0.08
             pretrace_end   0.02
             count 50
@@ -99,7 +99,7 @@ plane { x, -20
         pigment {White}
 }
 
-// ch„o
+// ch√£o
 plane { y, 0
    pigment { Tan }
    finish {
