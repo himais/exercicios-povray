@@ -1,4 +1,4 @@
-//Aula 8 - Atividade 1 - Maíra Tabata 1561545.pov
+//Aula 8 
 //Arquivo Letras_01.pov
   
   #include "colors.inc"
